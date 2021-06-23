@@ -29,6 +29,11 @@ tsc-watch 라이브러리는 타입스트립트의 코드변화를 감지하여 
 그 다음 dist/index.js 를 node 명령어로 실행한다.
 이제 yarn start 로 해당 내용을 한번에 실행할수 있게 된다.
 
+## 라이브러리
+- typescript : 타입스크립트를 작성하기 위함
+- tsc-watch : 타입스트립트의 코드변화를 감지하여 자동으로 tsc 실행
+- crypto-js : Hash 값을 암호화 하기위함
+
 
 
 
