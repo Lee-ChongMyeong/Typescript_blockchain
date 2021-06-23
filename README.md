@@ -8,12 +8,20 @@
 이전의 해시 값을 활용하여 자신의 해시값을 만들고, 이렇게 블록 하나하나 연결되어 체이닝을 이루고 이를 블록체인 이라 명명한다.
 이를 한마디로 와닿게 말하면 "위변조 불가능한 신뢰의 기술" 이라 정리할수 있다. 이건 어원의 의미이고 블록체인 기술의 아주 일부분만 구현해 보았다.
 
+Block 이라는 Class 를 만들고, Block 이라는 타입의 Array 인 blockchain 을 만들었다. Block 의 static function 을 이용하여, 블럭의 hash 를 계산하고, 블럭 structure 를 검증하는 기능도 제작하였다. 모든 파라미터는 타입이 지정되어 있어, 코드가 예측 가능하게 되었던 것 같다.
+
 ## 폴더구조
 ![image](https://user-images.githubusercontent.com/79817676/123150884-d39a7080-d49d-11eb-955d-57ab725020e0.png)
 
 src 폴더 안에있는 .ts 파일들을 .js로 번역하여 dist 폴더에 생성하는 구조이다.
 $ tsc src/index.ts 를 수행하면 dist 안의 .js 는 자동으로 생성된다.
 위와같은 명령을 수행하려면 tsconfig의 추가적인 설정이 필요하다.
+
+<초기세팅>
+1. yarn init 초기화 명령어를 통해 package.json 생성
+2. yarn global add typescript 설치
+3. tsconfig.json 생성
+
 
 ## tsconfig
 ![image](https://user-images.githubusercontent.com/79817676/123151023-fdec2e00-d49d-11eb-9764-64943caa063f.png)
