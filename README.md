@@ -19,7 +19,7 @@ $ tsc src/index.ts 를 수행하면 dist 안의 .js 는 자동으로 생성된�
 
 <초기세팅>
 1. yarn init 초기화 명령어를 통해 package.json 생성
-2. yarn global add typescript 설치
+2. yarn global add typescript 설치 
 3. tsconfig.json 생성
 
 
